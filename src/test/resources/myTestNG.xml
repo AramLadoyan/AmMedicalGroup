@@ -3,10 +3,36 @@
 <suite guice-stage="DEVELOPMENT" name="Default suite">
 	<test thread-count="5" verbose="2" name="Default test">
 		<classes>
-			<class name="com.web365.search.field.AmMedicalGroupSearchFieldTest" />
+		    <!--<class name="com.web365.search.field.AmMedicalGroupLetterSearchTest" />
 			<class name="com.web365.search.field.AmMedicalGroupSpecCharSearchTest" />
 			<class name="com.web365.search.field.AmMedicalGroupNumberSearchTest" />
-			<class name="com.web365.filter.products.AmMedicalGroupFilterLowestTest" />
-		</classes>
+			<class name="com.web365.products.test.AmMedicalGroupFilterLowestTest" />
+			<class name="com.web365.products.test.AmMedicalGroupFilterFirstAddedTest" />
+			<class name="com.web365.products.test.AmMedicalGroupFilterHighestTest" />
+			<class name="com.web365.products.test.AmMedicalGroupFilterAtoZTest" />
+			<class name="com.web365.products.test.AmMedicalGroupFilterZtoATest"/>
+			<class name="com.web365.products.test.AmMedicalGroupFilterLastAddedTest" />
+			<class name="com.web365.products.test.AmMedicalGroupNebulaizersTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupInsulinSyringesTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupNeedlesForInsulinSyringePenTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupLancingDevicesTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupGlovesTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupAlcoholSwabsTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupBloodGlucoseMetersTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupTestStripsTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupBloodPressureMonitersTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupLancetsTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupThermometersTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupAccessoriesTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupSpecialOffersTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupASCENSIADiabetesCareTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupORMONTest"/>
+			<class name="com.web365.products.test.AmMedicalGroupANDTechnologyTest"/>
+			<class name="com.web365.home.test.AmMedicalGroupLogoIconTest"/>
+			<class name="com.web365.home.test.AmMedicalGroupLanguageArmenianTest"/>
+			<class name="com.web365.home.test.AmMedicalGroupLanguageRussianTest"/>-->
+			<class name="com.web365.contacts.test.AmMedicalGroupNameFieldLettersTest"/>
+			<class name="com.web365.contacts.test.AmMedicalGroupNameFieldLettersTest"/>
+      </classes>
 	</test> <!-- Default test -->
 </suite> <!-- Default suite -->

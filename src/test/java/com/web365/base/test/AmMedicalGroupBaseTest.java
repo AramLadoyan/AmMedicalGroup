@@ -9,13 +9,13 @@ public class AmMedicalGroupBaseTest {
 	
 	protected WebDriver driver;
 	@BeforeClass
-	public void myBeforeClass() {
+	public void openBrowser () {
 		driver = new ChromeDriver();
 		driver.get("http://www.ammedicalgroup.am/Home/Index?l=en-US");
 	}
 	
 	@AfterClass
-	public void myAfterClass() {
+	public void closeBrowser() {
 		driver.close();
 		driver.quit();
 	}
